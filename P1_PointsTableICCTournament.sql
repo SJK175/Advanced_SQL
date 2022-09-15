@@ -1,4 +1,4 @@
-/*Create the table*/
+/*Create the input table*/
 create table icc_world_cup
 (
 Team_1 Varchar(20),
