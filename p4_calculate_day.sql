@@ -6,7 +6,7 @@ create table icc_world_cup
 given_date date);
 insert into icc_world_cup values ("1","2022-09-21");
 declare @n int
-set n = 3
+set @n = 3
 
 /*output*/
 select DATEADD(week, @n-1, calc_days) from 
